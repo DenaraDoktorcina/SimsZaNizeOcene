@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\HotelsManagerApp\\HotelsManagerApp.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\HotelsManagerApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\HotelsManagerApp\\HotelsManagerApp.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\HotelsManagerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\HotelsManagerApp\\HotelsManagerApp.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\HotelsManagerApp.csproj",
         "projectName": "HotelsManagerApp",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\HotelsManagerApp\\HotelsManagerApp.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\HotelsManagerApp.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\HotelsManagerApp\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
