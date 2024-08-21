@@ -22,5 +22,9 @@ namespace HotelsManagerApp.Controllers
             return _hotelService.GetAllHotels();
         }
 
+        public List<Hotel> GetBySearchTerm(string SearchTerm, string SelectedFilter)
+        {
+            return _hotelService.GetSearch(SearchTerm, SelectedFilter);
+        }
     }
 }

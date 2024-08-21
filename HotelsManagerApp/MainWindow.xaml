@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HotelsManagerApp"
         mc:Ignorable="d"
-        Title="LoginForm" Height="300" Width="450">
+        Title="LoginForm" Height="300" Width="450"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="30"/>

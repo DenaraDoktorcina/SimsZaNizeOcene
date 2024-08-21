@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HotelsManagerApp.View.AdminView"
         mc:Ignorable="d"
-        Title="AdminMainWindow" Height="450" Width="800">
+        Title="AdminMainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -19,16 +20,17 @@
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="Search:" Grid.Column="1" HorizontalAlignment="Right"/>
-            <TextBox Grid.Column="2" Margin="3"/>
-            <ComboBox Grid.Column="3" Margin="3">
-                <ComboBoxItem Content="ID" />
-                <ComboBoxItem Content="Name" />
-                <ComboBoxItem Content="Construction Year" />
-                <ComboBoxItem Content="Apartments" />
-                <ComboBoxItem Content="Number of Stars" />
+            <TextBox Grid.Column="2" Margin="3" Name="searchTextBox" Foreground="Gray" Text="{Binding SearchTerm, Mode=TwoWay}"/>
+            <ComboBox Grid.Column="3" Margin="3" SelectedIndex="0" 
+                      ItemsSource="{Binding FilterOptions}" 
+                      SelectedItem="{Binding SelectedFilter, Mode=TwoWay}">
             </ComboBox>
+
+
+            <Button Command="{Binding SearchCommand}" Grid.Column="4" Content="&#xE721;" FontFamily="Segoe MDL2 Assets" Width="30" Margin="3"/>
         </Grid>
 
         <DataGrid
