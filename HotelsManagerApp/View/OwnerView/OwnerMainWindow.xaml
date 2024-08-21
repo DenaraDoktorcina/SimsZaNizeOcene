@@ -1,0 +1,60 @@
+﻿<Window x:Class="HotelsManagerApp.View.OwnerView.OwnerMainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelsManagerApp.View.OwnerView"
+        mc:Ignorable="d"
+        Title="OwnerMainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Text="Search:" Grid.Column="1" HorizontalAlignment="Right"/>
+            <TextBox Grid.Column="2" Margin="3"/>
+            <ComboBox Grid.Column="3" Margin="3">
+                <ComboBoxItem Content="ID" />
+                <ComboBoxItem Content="Name" />
+                <ComboBoxItem Content="Construction Year" />
+                <ComboBoxItem Content="Apartments" />
+                <ComboBoxItem Content="Number of Stars" />
+            </ComboBox>
+        </Grid>
+        
+        <DataGrid
+             ItemsSource="{Binding Path=Hotels, UpdateSourceTrigger=PropertyChanged}"
+             SelectedItem="{Binding Path=SelectedHotel, UpdateSourceTrigger=PropertyChanged}"
+             IsReadOnly="True" 
+             HorizontalAlignment="Stretch" 
+             x:Name="myDataGridHotels"
+             Grid.Row="1"
+             AutoGenerateColumns="False"
+             EnableColumnVirtualization="False"
+             EnableRowVirtualization="False">
+
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID:" Binding="{Binding Id}" Width="Auto"/>
+                <DataGridTextColumn Header="Name:" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Construction year:" Binding="{Binding YearOfConstruction}" Width="*"/>
+                <DataGridTextColumn Header="ApartmaniLISTA:" Binding="{Binding Apartments}" Width="*"/>
+                <DataGridTextColumn Header="Stars:" Binding="{Binding NumberOfStars}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

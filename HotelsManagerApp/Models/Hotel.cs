@@ -1,0 +1,53 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using HotelsManagerApp.Serializer;
+
+namespace HotelsManagerApp.Models
+{
+    public class Hotel : ISerializable
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int YearOfConstruction { get; set; }
+        public List<Apartment> Apartmants { get; set; }
+        public int NumberOfStars { get; set; }
+        public string OwnerJmbg { get; set; }
+
+        public Hotel() { }
+        public Hotel(int id, string name, int yearOfConstruction, List<Apartment> apartmants, int numberOfStars, string ownerJmbg)
+        {
+            Id = id;
+            Name = name;
+            YearOfConstruction = yearOfConstruction;
+            Apartmants = apartmants;
+            NumberOfStars = numberOfStars;
+            OwnerJmbg = ownerJmbg;
+        }
+
+        public void FromCSV(string[] values)
+        {
+            Id = int.Parse(values[0]);
+            Name = values[1];
+            YearOfConstruction = int.Parse(values[2]);
+            //lista id-jeva apartmana
+            NumberOfStars = int.Parse(values[3]);
+            OwnerJmbg = values[4];
+        }
+
+        public string[] ToCSV()
+        {
+            string[] csvValues =
+            {
+                Id.ToString(),
+                Name.ToString(),
+                YearOfConstruction.ToString(),
+                NumberOfStars.ToString(),
+                OwnerJmbg.ToString(),
+            };
+            return csvValues;
+        }
+    }
+}

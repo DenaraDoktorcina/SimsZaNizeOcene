@@ -39,3 +39,9 @@ C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\ob
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\HotelsManagerApp.pdb
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\HotelsManagerApp.genruntimeconfig.cache
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\ref\HotelsManagerApp.dll
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\AdminMainWindow.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\AdminMainWindow.baml
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\GuestView\GuestMainWindow.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\GuestView\GuestMainWindow.baml
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\OwnerMainWindow.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\OwnerMainWindow.baml

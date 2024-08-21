@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\App.xaml
-11407045341
+4-1851740365
 
-61137218842
+241048731038
 198-635017904
-MainWindow.xaml;
+MainWindow.xaml;View\AdminView\AdminMainWindow.xaml;View\GuestView\GuestMainWindow.xaml;View\OwnerView\OwnerMainWindow.xaml;
 
 True
 
