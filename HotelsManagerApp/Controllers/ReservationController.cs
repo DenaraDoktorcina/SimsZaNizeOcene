@@ -37,6 +37,10 @@ namespace HotelsManagerApp.Controllers
             return _reservationService.GetAllReservationsByUserId(id);
         }
 
+        public Reservation CancelReservation(Reservation SelectedReservation, User Loggeduser)
+        {
+            return _reservationService.CancelReservation(SelectedReservation, Loggeduser);
+        }
 
     }
 }

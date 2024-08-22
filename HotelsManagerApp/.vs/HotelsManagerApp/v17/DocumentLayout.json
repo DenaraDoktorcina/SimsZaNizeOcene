@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\guestviewmodel\\guestallreservatonsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\guestviewmodel\\guestallreservatonsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\resources\\data\\reservations.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:resources\\data\\reservations.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\guestview\\guestallreservations.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\guestview\\guestallreservations.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\guestviewmodel\\guestallreservatonsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\guestviewmodel\\guestallreservatonsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\services\\guestservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:services\\guestservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\guestview\\guestallreservations.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
@@ -25,18 +41,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\guestview\\makereservationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\guestview\\makereservationwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\resources\\data\\reservations.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:resources\\data\\reservations.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\services\\guestservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:services\\guestservice\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:controllers\\reservationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\guestviewmodel\\makereservationviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -101,22 +105,9 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 377,
-          "SelectedChildIndex": 1,
+          "DockedWidth": 356,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GuestAllReservations.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestView\\GuestAllReservations.xaml.cs",
-              "RelativeDocumentMoniker": "View\\GuestView\\GuestAllReservations.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestView\\GuestAllReservations.xaml.cs",
-              "RelativeToolTip": "View\\GuestView\\GuestAllReservations.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T02:10:17.828Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -131,7 +122,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
+              "Title": "GuestAllReservations.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestView\\GuestAllReservations.xaml.cs",
+              "RelativeDocumentMoniker": "View\\GuestView\\GuestAllReservations.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestView\\GuestAllReservations.xaml.cs",
+              "RelativeToolTip": "View\\GuestView\\GuestAllReservations.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T02:10:17.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MakeReservationWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestView\\MakeReservationWindow.xaml.cs",
               "RelativeDocumentMoniker": "View\\GuestView\\MakeReservationWindow.xaml.cs",
@@ -139,24 +143,22 @@
               "RelativeToolTip": "View\\GuestView\\MakeReservationWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwBYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T22:08:52.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T22:08:52.15Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "AdminMainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AdminMainWindow.xaml",
               "RelativeDocumentMoniker": "View\\AdminView\\AdminMainWindow.xaml",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AdminMainWindow.xaml",
               "RelativeToolTip": "View\\AdminView\\AdminMainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-21T01:07:15.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T01:07:15.804Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "AdminMainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AdminMainWindow.xaml.cs",
               "RelativeDocumentMoniker": "View\\AdminView\\AdminMainWindow.xaml.cs",
@@ -164,12 +166,11 @@
               "RelativeToolTip": "View\\AdminView\\AdminMainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T01:10:26.45Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T01:10:26.45Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "users.csv",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Resources\\Data\\users.csv",
               "RelativeDocumentMoniker": "Resources\\Data\\users.csv",
@@ -177,24 +178,22 @@
               "RelativeToolTip": "Resources\\Data\\users.csv",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-08-21T01:06:35.811Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T01:06:35.811Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "GuestMainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestView\\GuestMainWindow.xaml",
               "RelativeDocumentMoniker": "View\\GuestView\\GuestMainWindow.xaml",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestView\\GuestMainWindow.xaml",
               "RelativeToolTip": "View\\GuestView\\GuestMainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-22T02:18:18.247Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T02:18:18.247Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ApartmentService.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Services\\GuestService\\ApartmentService.cs",
               "RelativeDocumentMoniker": "Services\\GuestService\\ApartmentService.cs",
@@ -202,12 +201,11 @@
               "RelativeToolTip": "Services\\GuestService\\ApartmentService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T00:59:48.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T00:59:48.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "GuestMainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestView\\GuestMainWindow.xaml.cs",
               "RelativeDocumentMoniker": "View\\GuestView\\GuestMainWindow.xaml.cs",
@@ -215,24 +213,22 @@
               "RelativeToolTip": "View\\GuestView\\GuestMainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T02:18:21.025Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-22T02:18:21.025Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MakeReservationWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestView\\MakeReservationWindow.xaml",
               "RelativeDocumentMoniker": "View\\GuestView\\MakeReservationWindow.xaml",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestView\\MakeReservationWindow.xaml",
               "RelativeToolTip": "View\\GuestView\\MakeReservationWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-21T21:54:15.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T21:54:15.486Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "Apartment.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Models\\Apartment.cs",
               "RelativeDocumentMoniker": "Models\\Apartment.cs",
@@ -240,12 +236,11 @@
               "RelativeToolTip": "Models\\Apartment.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T22:27:47.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T22:27:47.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -257,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "HotelController.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Controllers\\HotelController.cs",
               "RelativeDocumentMoniker": "Controllers\\HotelController.cs",
@@ -269,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Services\\AdminServices\\UserService.cs",
               "RelativeDocumentMoniker": "Services\\AdminServices\\UserService.cs",
@@ -281,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "hotels.csv",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Resources\\Data\\hotels.csv",
               "RelativeDocumentMoniker": "Resources\\Data\\hotels.csv",
@@ -294,38 +289,77 @@
           ]
         },
         {
-          "DockedWidth": 277,
+          "DockedWidth": 298,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "reservations.csv",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Resources\\Data\\reservations.csv",
+              "RelativeDocumentMoniker": "Resources\\Data\\reservations.csv",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Resources\\Data\\reservations.csv",
+              "RelativeToolTip": "Resources\\Data\\reservations.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-08-22T14:01:07.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Controllers\\ReservationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Controllers\\ReservationController.cs",
+              "RelativeToolTip": "Controllers\\ReservationController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAADwvyoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:51:16.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "GuestAllReservatonsViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestViewModel\\GuestAllReservatonsViewModel.cs",
               "RelativeDocumentMoniker": "View\\GuestViewModel\\GuestAllReservatonsViewModel.cs",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestViewModel\\GuestAllReservatonsViewModel.cs",
               "RelativeToolTip": "View\\GuestViewModel\\GuestAllReservatonsViewModel.cs",
-              "ViewState": "AQIAABAAAAAAAAAAAAAgwCsAAAAmAAAA",
+              "ViewState": "AQIAACUAAAAAAAAAAAAiwEIAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-22T02:10:57.778Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "reservations.csv",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Resources\\Data\\reservations.csv",
-              "RelativeDocumentMoniker": "Resources\\Data\\reservations.csv",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Resources\\Data\\reservations.csv",
-              "RelativeToolTip": "Resources\\Data\\reservations.csv",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAA3AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2024-08-22T02:24:55.455Z",
+              "DocumentIndex": 4,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Services\\GuestService\\ReservationService.cs",
+              "RelativeDocumentMoniker": "Services\\GuestService\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Services\\GuestService\\ReservationService.cs",
+              "RelativeToolTip": "Services\\GuestService\\ReservationService.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAqwD0AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T01:34:23.563Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "Repositories\\ReservationRepository.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAArwDIAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-22T13:40:04.184Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "MakeReservationViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestViewModel\\MakeReservationViewModel.cs",
               "RelativeDocumentMoniker": "View\\GuestViewModel\\MakeReservationViewModel.cs",
@@ -333,38 +367,11 @@
               "RelativeToolTip": "View\\GuestViewModel\\MakeReservationViewModel.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAtwDkAAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T22:29:15.619Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T22:29:15.619Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReservationService.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Services\\GuestService\\ReservationService.cs",
-              "RelativeDocumentMoniker": "Services\\GuestService\\ReservationService.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Services\\GuestService\\ReservationService.cs",
-              "RelativeToolTip": "Services\\GuestService\\ReservationService.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAArwCoAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T01:34:23.563Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReservationController.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Controllers\\ReservationController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ReservationController.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Controllers\\ReservationController.cs",
-              "RelativeToolTip": "Controllers\\ReservationController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwB8AAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-22T00:56:39.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "GuestMainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\GuestViewModel\\GuestMainWindowViewModel.cs",
               "RelativeDocumentMoniker": "View\\GuestViewModel\\GuestMainWindowViewModel.cs",
@@ -372,12 +379,11 @@
               "RelativeToolTip": "View\\GuestViewModel\\GuestMainWindowViewModel.cs",
               "ViewState": "AQIAADIAAAAAAAAAAIA6wFoAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T02:10:01.137Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T02:10:01.137Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "OwnerMainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\OwnerView\\OwnerMainWindow.xaml.cs",
               "RelativeDocumentMoniker": "View\\OwnerView\\OwnerMainWindow.xaml.cs",
@@ -385,12 +391,11 @@
               "RelativeToolTip": "View\\OwnerView\\OwnerMainWindow.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA2AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T02:30:19.853Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T02:30:19.853Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "OwnerMainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\OwnerViewModel\\OwnerMainWindowViewModel.cs",
               "RelativeDocumentMoniker": "View\\OwnerViewModel\\OwnerMainWindowViewModel.cs",
@@ -398,8 +403,7 @@
               "RelativeToolTip": "View\\OwnerViewModel\\OwnerMainWindowViewModel.cs",
               "ViewState": "AQIAACgAAAAAAAAAAAAcwEAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-21T02:28:52.899Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-21T02:28:52.899Z"
             }
           ]
         }

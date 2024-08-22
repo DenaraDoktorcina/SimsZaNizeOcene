@@ -56,5 +56,10 @@ namespace HotelsManagerApp.Services.GuestService
             }
             return reservationsById;
         }
+
+        public Reservation CancelReservation(Reservation SelectedReservation, User Loggeduser)
+        {
+            return _reservationRepository.Delete(SelectedReservation, Loggeduser);
+        }
     }
 }

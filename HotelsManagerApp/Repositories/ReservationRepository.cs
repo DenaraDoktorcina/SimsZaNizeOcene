@@ -43,5 +43,14 @@ namespace HotelsManagerApp.Repositories
             }
             return reservations.Max(r => r.Id) + 1;
         }
+
+        public Reservation Delete(Reservation SelectedReservation, User LoggedUser)
+        {
+            reservations = _serializer.FromCSV(FilePath);
+            Reservation foundReservation = reservations.Find(c => c.ApartmentId == SelectedReservation.Id);
+            reservations.Remove(foundReservation);
+            _serializer.ToCSV(FilePath, reservations);
+            return foundReservation;
+        }
     }
 }

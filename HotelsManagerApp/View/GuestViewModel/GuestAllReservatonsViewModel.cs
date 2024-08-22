@@ -7,6 +7,7 @@ using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Input;
 
 namespace HotelsManagerApp.View.GuestViewModel
@@ -33,6 +34,21 @@ namespace HotelsManagerApp.View.GuestViewModel
                 }
             }
         }
+
+        public Reservation _selectedReservation;
+        public Reservation SelectedReservation
+        {
+            get { return _selectedReservation; }
+            set
+            {
+                if(_selectedReservation != value)
+                {
+                    _selectedReservation = value;
+                    OnPropertyChanged(nameof(SelectedReservation));
+                }
+            }
+        }
+
         public ICommand CancelReservationCommand { get; set; }
         public GuestAllReservatonsViewModel(User loggedUser) 
         {
@@ -41,7 +57,21 @@ namespace HotelsManagerApp.View.GuestViewModel
 
             _allReservations = new ObservableCollection<Reservation>(_reservationController.GetAllByUserId(loggedUser.Id));
             Reservations = new ObservableCollection<Reservation>(_reservationController.GetAllByUserId(loggedUser.Id));
-            //CancelReservationCommand
+            CancelReservationCommand = new RelayCommand<object>(CancelReservation);
+        }
+
+        public void CancelReservation(object parameter)
+        {
+            if(SelectedReservation == null || SelectedReservation.ReservationStatus == OwnerAnswer.REJECTED)
+            {
+                MessageBox.Show("You need to select a reservation!");
+            }else
+            {
+                _reservationController.CancelReservation(SelectedReservation, LoggedUser);
+                MessageBox.Show("You CANCELED your reservation!");
+                Reservations.Remove(SelectedReservation);
+                OnPropertyChanged(nameof(Reservations));
+            }
         }
 
         private void HandleStatusChange(string comboBoxResult)

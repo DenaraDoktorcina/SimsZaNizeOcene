@@ -49,7 +49,7 @@
 
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="ID:" Binding="{Binding Id}" Width="Auto"/>
-                    <DataGridTextColumn Header="Apartment:" Binding="{Binding ApartmentId}" Width="*"/>
+                    <DataGridTextColumn Header="Apartment:" Binding="{Binding ApartmentName}" Width="*"/>
                     <DataGridTextColumn Header="Reservation date:" Binding="{Binding ReservationDate}" Width="*"/>
                     <DataGridTextColumn Header="STATUS" Binding="{Binding ReservationStatus}" Width="*"/>
                     <DataGridTextColumn Header="Rejection comment:" Binding="{Binding RejectionComment}" Width="*"/>
