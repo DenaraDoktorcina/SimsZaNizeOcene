@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Input;
+using HotelsManagerApp.View.GuestView;
 
 namespace HotelsManagerApp.View.GuestViewModel
 {
@@ -57,12 +58,18 @@ namespace HotelsManagerApp.View.GuestViewModel
         };
 
         public ICommand SearchCommand { get; set; }
+        public ICommand MakeReservationCommand {  get; set; }
+        public ICommand SeeYourReservationsCommand {  get; set; }
+        public ICommand CancelReservationCommand {  get; set; }
         public GuestMainWindowViewModel(User logged) 
         {
             LoggedUser = logged;
             _hotelController = new HotelController();
             Hotels = new ObservableCollection<Hotel>(_hotelController.GetAll());
             SearchCommand = new RelayCommand<object>(SearchHotel);
+            MakeReservationCommand = new RelayCommand<object>(MakeReservation);
+            SeeYourReservationsCommand = new RelayCommand<object>(SeeYourReservations);
+            CancelReservationCommand = new RelayCommand<object>(CancelReservation);
 
             SelectedFilter = FilterOptions[0];
         }
@@ -71,6 +78,23 @@ namespace HotelsManagerApp.View.GuestViewModel
         {
             Hotels = new ObservableCollection<Hotel>(_hotelController.GetAll());
             OnPropertyChanged(nameof(Hotels));
+        }
+
+        public void CancelReservation(object parameter)
+        {
+
+        }
+
+        public void SeeYourReservations(object parameter)
+        {
+            GuestAllReservations allReservations = new GuestAllReservations(LoggedUser);
+            allReservations.Show();
+        }
+
+        public void MakeReservation(object parameter)
+        {
+            MakeReservationWindow reservationWindow = new MakeReservationWindow(LoggedUser);
+            reservationWindow.Show();
         }
 
         public void SearchHotel(object parameter)

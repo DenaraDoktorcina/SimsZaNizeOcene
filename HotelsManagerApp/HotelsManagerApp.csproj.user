@@ -10,7 +10,13 @@
     <Compile Update="View\AdminView\AdminMainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\GuestView\GuestAllReservations.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\GuestView\GuestMainWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\GuestView\MakeReservationWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\OwnerView\OwnerMainWindow.xaml.cs">
@@ -24,7 +30,13 @@
     <Page Update="View\AdminView\AdminMainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\GuestView\GuestAllReservations.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\GuestView\GuestMainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\GuestView\MakeReservationWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\OwnerView\OwnerMainWindow.xaml">
