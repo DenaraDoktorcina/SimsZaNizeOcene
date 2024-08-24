@@ -54,5 +54,11 @@ namespace HotelsManagerApp.Repositories
             users.Insert(index, updatedUser);
             _serializer.ToCSV(FilePath, users);
         }
+        public List<User> GetAllOwners()
+        {
+            var allUsers = _serializer.FromCSV(FilePath);
+
+            return allUsers.Where(user => user.UserType == TypeOfUser.OWNER).ToList();
+        }
     }
 }

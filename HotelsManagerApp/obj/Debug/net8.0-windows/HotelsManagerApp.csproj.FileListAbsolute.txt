@@ -63,3 +63,5 @@ C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\ob
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\AllUsers.baml
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\BlockUserWindow.g.cs
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\BlockUserWindow.baml
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\NewHotelWindow.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\NewHotelWindow.baml

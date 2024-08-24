@@ -1,0 +1,54 @@
+﻿<Window x:Class="HotelsManagerApp.View.AdminView.NewHotelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelsManagerApp.View.AdminView"
+        mc:Ignorable="d"
+        Title="NewHotelWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Name:" Grid.Row="0" Grid.Column="0" FontSize="25"/>
+        <TextBlock Text="Year of construction:" Grid.Row="1" Grid.Column="0" FontSize="25"/>
+        <TextBlock Text="Number of stars:" Grid.Row="2" Grid.Column="0" FontSize="25"/>
+        <TextBlock Text="Owners JMBG:" Grid.Row="3" Grid.Column="0" FontSize="25"/>
+
+        <TextBox Text="{Binding Name, Mode=TwoWay}" Grid.Column="1" Grid.Row="0" BorderBrush="Black" Margin="3"/>
+        <TextBox Text="{Binding ConstructionYear, Mode=TwoWay}" Grid.Column="1" Grid.Row="1" BorderBrush="Black" Margin="3"/>
+        <TextBox Text="{Binding StarsNumber, Mode=TwoWay}" Grid.Column="1" Grid.Row="2" BorderBrush="Black" Margin="3"/>
+        <ComboBox Grid.Column="1" Grid.Row="3" Margin="3"
+          ItemsSource="{Binding OwnersJmbgList}" 
+          SelectedItem="{Binding SelectedOwnerJmbg, Mode=TwoWay}">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <TextBlock.Text>
+                            <MultiBinding StringFormat="{}{0} ({1})">
+                                <Binding Path="Name"/>
+                                <Binding Path="Jmbg"/>
+                            </MultiBinding>
+                        </TextBlock.Text>
+                    </TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+
+        <Button Grid.Row="5" Grid.Column="0" Content="Cancel" Command="{Binding CancelCommand}" Margin="5" Height="40" VerticalAlignment="Bottom" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"/>
+        <Button Grid.Row="5" Grid.Column="1" Content="Submit" Command="{Binding SubmitCommand}" Margin="5" Height="40" VerticalAlignment="Bottom" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"/>
+    </Grid>
+</Window>

@@ -2,6 +2,7 @@
 using HotelsManagerApp.Services.AdminServices;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,6 +41,11 @@ namespace HotelsManagerApp.Controllers
         public List<Hotel> GetAllByOwnerJmbg(User logged)
         {
             return _hotelService.GetAllByOwnerJmbg(logged);
+        }
+
+        public int Add(Hotel newHotel)
+        {
+            return _hotelService.Add(newHotel);
         }
     }
 }

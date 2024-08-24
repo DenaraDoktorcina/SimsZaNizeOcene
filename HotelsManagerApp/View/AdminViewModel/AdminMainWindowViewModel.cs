@@ -63,6 +63,7 @@ namespace HotelsManagerApp.View.AdminViewModel
         public ICommand RegisterNewOwnerCommand { get; set; }
         public ICommand ShowAllUsersCommand {  get; set; }
         public ICommand BlockUserCommand { get; set; }
+        public ICommand AddNewHotelCommand { get; set; }
         public AdminMainWindowViewModel(User Logged) 
         {
             LoggedUser = Logged;
@@ -72,8 +73,15 @@ namespace HotelsManagerApp.View.AdminViewModel
             RegisterNewOwnerCommand = new RelayCommand<object>(RegisterNewOwner);
             ShowAllUsersCommand = new RelayCommand<object>(ShowAllUsers);
             BlockUserCommand = new RelayCommand<object>(BlockUser);
+            AddNewHotelCommand = new RelayCommand<object>(AddNewHotel);
 
             SelectedFilter = FilterOptions[0];
+        }
+
+        public void AddNewHotel(object parameter)
+        {
+            NewHotelWindow newHotelWindow = new NewHotelWindow();
+            newHotelWindow.Show();
         }
 
         public void BlockUser(object parameter)

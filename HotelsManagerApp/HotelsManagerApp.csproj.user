@@ -16,6 +16,9 @@
     <Compile Update="View\AdminView\BlockUserWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\AdminView\NewHotelWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\AdminView\RegisterNewOwnerWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -55,6 +58,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\AdminView\BlockUserWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AdminView\NewHotelWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\AdminView\RegisterNewOwnerWindow.xaml">

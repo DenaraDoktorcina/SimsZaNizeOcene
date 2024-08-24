@@ -44,5 +44,10 @@ namespace HotelsManagerApp.Controllers
         {
             _userService.Update(updatedUser);
         }
+
+        public List<User> GetAllOwners()
+        {
+            return _userService.GetAllOwners();
+        }
     }
 }

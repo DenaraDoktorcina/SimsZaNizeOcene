@@ -65,5 +65,10 @@ namespace HotelsManagerApp.Services.AdminServices
         {
             _userRepository.Update(updatedUser);
         }
+
+        public List<User> GetAllOwners()
+        {
+            return _userRepository.GetAllOwners();
+        }
     }
 }

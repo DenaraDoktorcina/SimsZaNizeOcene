@@ -29,6 +29,16 @@ namespace HotelsManagerApp.Models
             OwnerJmbg = ownerJmbg;
         }
 
+        public Hotel(string name, int yearOfConstruction, int numberOfStars, string ownerJmbg)
+        {
+            Name = name;
+            YearOfConstruction = yearOfConstruction;
+            NumberOfStars = numberOfStars;
+            OwnerJmbg = ownerJmbg;
+            ApartmentsIds = new List<int> { 0 };
+            NewHotel = HotelSuggestion.PENDING;
+        }
+
         public void FromCSV(string[] values)
         {
             Id = int.Parse(values[0]);

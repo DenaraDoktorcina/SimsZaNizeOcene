@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\App.xaml
-13-196585239
+141425077701
 
-49-1063833240
+51-913541584
 198-635017904
-MainWindow.xaml;View\AdminView\AdminMainWindow.xaml;View\AdminView\AllUsers.xaml;View\AdminView\BlockUserWindow.xaml;View\AdminView\RegisterNewOwnerWindow.xaml;View\GuestView\GuestAllReservations.xaml;View\GuestView\GuestMainWindow.xaml;View\GuestView\MakeReservationWindow.xaml;View\OwnerView\AllReservations.xaml;View\OwnerView\HotelAprovalWindow.xaml;View\OwnerView\ManageReservationRequestsWindow.xaml;View\OwnerView\NewApartmentWindow.xaml;View\OwnerView\OwnerMainWindow.xaml;
+MainWindow.xaml;View\AdminView\AdminMainWindow.xaml;View\AdminView\AllUsers.xaml;View\AdminView\BlockUserWindow.xaml;View\AdminView\NewHotelWindow.xaml;View\AdminView\RegisterNewOwnerWindow.xaml;View\GuestView\GuestAllReservations.xaml;View\GuestView\GuestMainWindow.xaml;View\GuestView\MakeReservationWindow.xaml;View\OwnerView\AllReservations.xaml;View\OwnerView\HotelAprovalWindow.xaml;View\OwnerView\ManageReservationRequestsWindow.xaml;View\OwnerView\NewApartmentWindow.xaml;View\OwnerView\OwnerMainWindow.xaml;
 
 True
 

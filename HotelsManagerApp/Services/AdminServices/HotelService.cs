@@ -116,5 +116,10 @@ namespace HotelsManagerApp.Services.AdminServices
             }
             return ownersHotels;
         }
+
+        public int Add(Hotel newHotel)
+        {
+            return _hotelRepository.Save(newHotel);
+        }
     }
 }
