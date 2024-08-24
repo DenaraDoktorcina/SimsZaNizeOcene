@@ -42,5 +42,20 @@ namespace HotelsManagerApp.Controllers
             return _reservationService.CancelReservation(SelectedReservation, Loggeduser);
         }
 
+        public List<Reservation> GetReservationsByOwnerId(User logged)
+        {
+            return _reservationService.GetReservationsByOwnerId(logged);
+        }
+
+        public List<Reservation> GetReservationsForSelectedHotel(Hotel selectedHotel)
+        {
+            return _reservationService.GetReservationsForSelectedHotel(selectedHotel);
+        }
+
+        public void RejectedReservation(Reservation selectedReservation, string rejectionComment)
+        {
+            _reservationService.RejectedReservation(selectedReservation, rejectionComment);
+        }
+
     }
 }

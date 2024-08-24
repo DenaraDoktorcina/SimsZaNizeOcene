@@ -24,5 +24,24 @@ namespace HotelsManagerApp.Repositories
         {
             return _serializer.FromCSV(FilePath);
         }
+
+        public int Save(Apartment newApartment)
+        {
+            newApartment.Id = NextId();
+            apartments = _serializer.FromCSV(FilePath);
+            apartments.Add(newApartment);
+            _serializer.ToCSV(FilePath, apartments);
+            return newApartment.Id;
+        }
+
+        public int NextId()
+        {
+            apartments = _serializer.FromCSV(FilePath);
+            if(apartments.Count < 1)
+            {
+                return 1;
+            }
+            return apartments.Max(x => x.Id) +1;
+        }
     }
 }

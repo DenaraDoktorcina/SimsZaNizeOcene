@@ -20,5 +20,10 @@ namespace HotelsManagerApp.Services.GuestService
         {
             return _apartmentRepository.GetAll();
         }
+
+        public int Add(Apartment newApartment)
+        {
+            return _apartmentRepository.Save(newApartment);
+        }
     }
 }

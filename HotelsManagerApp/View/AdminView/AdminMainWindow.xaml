@@ -59,5 +59,19 @@
             </DataGrid.Columns>
         </DataGrid>
 
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="Register new owner" Grid.Column="0" Margin="5" Command="{Binding RegisterNewOwnerCommand}"/>
+            <Button Content="Show all users" Grid.Column="1" Margin="5" Command="{Binding ShowAllUsersCommand}"/>
+            <Button Content="Block a user" Grid.Column="2" Margin="5" Command="{Binding BlockUserCommand}"/>
+            <Button Content="Add new hotel" Grid.Column="3" Margin="5" Command="{Binding AddNewHotelCommand}"/>
+        </Grid>
+        
     </Grid>
 </Window>

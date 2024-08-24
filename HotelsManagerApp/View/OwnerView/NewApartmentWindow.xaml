@@ -1,0 +1,36 @@
+﻿<Window x:Class="HotelsManagerApp.View.OwnerView.NewApartmentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelsManagerApp.View.OwnerView"
+        mc:Ignorable="d"
+        Title="NewApartmentWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Name:" FontSize="25" Grid.Column="0" Grid.Row="0" Margin="3"/>
+        <TextBlock Text="Description:" FontSize="25" Grid.Column="0" Grid.Row="1" Margin="3"/>
+        <TextBlock Text="Number of rooms:" FontSize="25" Grid.Column="0" Grid.Row="2" Margin="3"/>
+        <TextBlock Text="Max number of guests:" FontSize="25" Grid.Column="0" Grid.Row="3" Margin="3"/>
+
+        <TextBox Text="{Binding Name}" Grid.Column="1" Grid.Row="0" Margin="3" BorderBrush="Black"/>
+        <TextBox Text="{Binding Description}" Grid.Column="1" Grid.Row="1" Margin="3" BorderBrush="Black"/>
+        <TextBox Text="{Binding RoomsNumber}" Grid.Column="1" Grid.Row="2" Margin="3" BorderBrush="Black"/>
+        <TextBox Text="{Binding MaxGuestsNumber}" Grid.Column="1" Grid.Row="3" Margin="3" BorderBrush="Black"/>
+
+        <Button Content="Cancel" Margin="3" Grid.Column="0" Grid.Row="4" VerticalAlignment="Bottom" Command="{Binding CancelCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"/>
+        <Button Content="Submit" Margin="3" Grid.Column="1" Grid.Row="4" VerticalAlignment="Bottom" Command="{Binding SubmitCommand}" CommandParameter="{Binding RelativeSource={RelativeSource AncestorType=Window}}"/>
+    </Grid>
+</Window>

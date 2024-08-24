@@ -1,0 +1,69 @@
+﻿<Window x:Class="HotelsManagerApp.View.OwnerView.ManageReservationRequestsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelsManagerApp.View.OwnerView"
+        mc:Ignorable="d"
+        Title="ManageReservationRequestsWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Background="LightGray" Text="{Binding SelectedHotel.Name}" Margin="3" Padding="2" Grid.Column="0"/>
+            <TextBlock Background="LightGray" Text="PENDING RESERVATION REQUESTS" Grid.Column="2" Margin="3" Padding="2"/>
+        </Grid>
+
+        <Grid Grid.Row="1">
+            <DataGrid
+                 ItemsSource="{Binding Path=ReservationsForSelectedHotel, UpdateSourceTrigger=PropertyChanged}"
+                 SelectedItem="{Binding Path=SelectedReservation, UpdateSourceTrigger=PropertyChanged}"
+                 IsReadOnly="True" 
+                 HorizontalAlignment="Stretch" 
+                 x:Name="myDataGridHotels"
+                 Grid.Row="1"
+                 AutoGenerateColumns="False"
+                 EnableColumnVirtualization="False"
+                 EnableRowVirtualization="False">
+
+                <DataGrid.ColumnHeaderStyle>
+                    <Style TargetType="{x:Type DataGridColumnHeader}">
+                        <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    </Style>
+                </DataGrid.ColumnHeaderStyle>
+
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="ID:" Binding="{Binding Id}" Width="Auto"/>
+                    <DataGridTextColumn Header="Apartment:" Binding="{Binding ApartmentName}" Width="*"/>
+                    <DataGridTextColumn Header="Reservation date:" Binding="{Binding ReservationDate}" Width="*"/>
+                    <DataGridTextColumn Header="STATUS" Binding="{Binding ReservationStatus}" Width="*"/>
+                </DataGrid.Columns>
+            </DataGrid>
+        </Grid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBox Margin="3" BorderBrush="Black" BorderThickness="1" Text="{Binding RejectionComment, Mode=TwoWay}" Grid.Column="0"/>
+            <TextBlock Text="Input a reason for the rejection of the request" TextWrapping="Wrap" Grid.Column="1" Margin="0 3 3 3" FontSize="10" />
+            <Button Grid.Column="2" Content="Reject" Margin="5" Command="{Binding RejectReservationCommand}"/>
+            <Button Grid.Column="3" Content="Accepted" Margin="5" Command="{Binding AcceptReservationCommand}"/>
+        </Grid>
+    </Grid>
+</Window>

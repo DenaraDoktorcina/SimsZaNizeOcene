@@ -26,5 +26,10 @@ namespace HotelsManagerApp.Controllers
         {
             return _userService.GetUserByEmail(email);
         }
+
+        public void Add(User newowner)
+        {
+            _userService.Add(newowner);
+        }
     }
 }

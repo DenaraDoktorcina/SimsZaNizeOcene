@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace HotelsManagerApp.Controllers
 {
-    class HotelController
+    public class HotelController
     {
         private HotelService _hotelService;
 
@@ -22,9 +22,24 @@ namespace HotelsManagerApp.Controllers
             return _hotelService.GetAllHotels();
         }
 
-        public List<Hotel> GetBySearchTerm(string SearchTerm, string SelectedFilter)
+        public List<Hotel> GetBySearchTerm(string SearchTerm, string SelectedFilter, User logged)
         {
-            return _hotelService.GetSearch(SearchTerm, SelectedFilter);
+            return _hotelService.GetSearch(SearchTerm, SelectedFilter, logged);
+        }
+
+        public List<Hotel> GetSuggestedNewHotels(User forOwner)
+        {
+            return _hotelService.GetSuggestedNewHotels(forOwner);
+        }
+
+        public void Update(Hotel selectedHotel)
+        {
+            _hotelService.Update(selectedHotel);
+        }
+
+        public List<Hotel> GetAllByOwnerJmbg(User logged)
+        {
+            return _hotelService.GetAllByOwnerJmbg(logged);
         }
     }
 }

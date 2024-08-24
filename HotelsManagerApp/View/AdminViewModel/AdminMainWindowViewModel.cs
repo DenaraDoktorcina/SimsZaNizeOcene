@@ -79,7 +79,7 @@ namespace HotelsManagerApp.View.AdminViewModel
         {
             try
             {
-                Hotels = new ObservableCollection<Hotel>(_hotelController.GetBySearchTerm(SearchTerm, SelectedFilter));
+                Hotels = new ObservableCollection<Hotel>(_hotelController.GetBySearchTerm(SearchTerm, SelectedFilter, LoggedUser));
                 OnPropertyChanged(nameof(Hotels));
             }
             catch (ArgumentException ex)

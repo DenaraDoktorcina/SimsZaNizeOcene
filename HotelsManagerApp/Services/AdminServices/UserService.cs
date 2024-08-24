@@ -32,5 +32,10 @@ namespace HotelsManagerApp.Services.AdminServices
             }
             return null;
         }
+
+        public void Add(User newowner)
+        {
+            _userRepository.Save(newowner);
+        }
     }
 }

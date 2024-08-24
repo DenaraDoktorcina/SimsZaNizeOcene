@@ -7,15 +7,17 @@ using HotelsManagerApp.Serializer;
 
 namespace HotelsManagerApp.Models
 {
+    public enum HotelSuggestion { ACCEPTED = 1, REJECTED, PENDING}
     public class Hotel : ISerializable
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public int YearOfConstruction { get; set; }
         public List<Apartment> Apartmants { get; set; }
+        public List<int> ApartmentsIds { get; set; }
         public int NumberOfStars { get; set; }
         public string OwnerJmbg { get; set; }
-
+        public HotelSuggestion NewHotel {  get; set; }
         public Hotel() { }
         public Hotel(int id, string name, int yearOfConstruction, List<Apartment> apartmants, int numberOfStars, string ownerJmbg)
         {
@@ -32,9 +34,10 @@ namespace HotelsManagerApp.Models
             Id = int.Parse(values[0]);
             Name = values[1];
             YearOfConstruction = int.Parse(values[2]);
-            //lista id-jeva apartmana
             NumberOfStars = int.Parse(values[3]);
             OwnerJmbg = values[4];
+            ApartmentsIds = values[5].Split(',').Select(int.Parse).ToList();
+            NewHotel = (HotelSuggestion)Enum.Parse(typeof(HotelSuggestion), values[6]);
         }
 
         public string[] ToCSV()
@@ -46,6 +49,8 @@ namespace HotelsManagerApp.Models
                 YearOfConstruction.ToString(),
                 NumberOfStars.ToString(),
                 OwnerJmbg.ToString(),
+                string.Join(",", ApartmentsIds),
+                NewHotel.ToString()
             };
             return csvValues;
         }

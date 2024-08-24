@@ -52,5 +52,16 @@ namespace HotelsManagerApp.Repositories
             _serializer.ToCSV(FilePath, reservations);
             return foundReservation;
         }
+
+        public void Update(Reservation updatedReservation)
+        {
+            reservations = _serializer.FromCSV(FilePath);
+            Reservation current = reservations.Find(c => c.Id == updatedReservation.Id);
+            int index = reservations.IndexOf(current);
+            reservations.Remove(current);
+            reservations.Insert(index, updatedReservation);
+            _serializer.ToCSV(FilePath, reservations);
+            
+        }
     }
 }

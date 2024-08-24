@@ -24,5 +24,16 @@ namespace HotelsManagerApp.Repositories
         {
             return _serializer.FromCSV(FilePath);
         }
+
+        public void Update(Hotel SelectedHotel)
+        {
+            hotels = _serializer.FromCSV(FilePath);
+            Hotel current = hotels.Find(c => c.Id == SelectedHotel.Id);
+            int index = hotels.IndexOf(current);
+            hotels.Remove(current);
+            hotels.Insert(index, SelectedHotel);
+            _serializer.ToCSV(FilePath, hotels);
+        }
+
     }
 }

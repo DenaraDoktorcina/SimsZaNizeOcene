@@ -49,3 +49,11 @@ C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\ob
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\GuestView\MakeReservationWindow.baml
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\GuestView\GuestAllReservations.g.cs
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\GuestView\GuestAllReservations.baml
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\AllReservations.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\AllReservations.baml
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\ManageReservationRequestsWindow.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\ManageReservationRequestsWindow.baml
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\HotelAprovalWindow.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\HotelAprovalWindow.baml
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\NewApartmentWindow.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\NewApartmentWindow.baml

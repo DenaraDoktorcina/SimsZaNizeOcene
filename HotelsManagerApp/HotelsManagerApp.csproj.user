@@ -10,6 +10,9 @@
     <Compile Update="View\AdminView\AdminMainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\AdminView\RegisterNewOwnerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\GuestView\GuestAllReservations.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -17,6 +20,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\GuestView\MakeReservationWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\OwnerView\AllReservations.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\OwnerView\HotelAprovalWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\OwnerView\ManageReservationRequestsWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\OwnerView\NewApartmentWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="View\OwnerView\OwnerMainWindow.xaml.cs">
@@ -30,6 +45,9 @@
     <Page Update="View\AdminView\AdminMainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="View\AdminView\RegisterNewOwnerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\GuestView\GuestAllReservations.xaml">
       <SubType>Designer</SubType>
     </Page>
@@ -37,6 +55,18 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\GuestView\MakeReservationWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\OwnerView\AllReservations.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\OwnerView\HotelAprovalWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\OwnerView\ManageReservationRequestsWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\OwnerView\NewApartmentWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\OwnerView\OwnerMainWindow.xaml">

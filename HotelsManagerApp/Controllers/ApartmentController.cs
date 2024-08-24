@@ -21,5 +21,10 @@ namespace HotelsManagerApp.Controllers
         {
             return _apartmentService.GetAllApartments();
         }
+
+        public int Add(Apartment newAppartment)
+        {
+            return _apartmentService.Add(newAppartment);
+        }
     }
 }

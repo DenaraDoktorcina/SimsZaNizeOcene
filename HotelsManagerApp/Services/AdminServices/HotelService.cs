@@ -21,69 +21,100 @@ namespace HotelsManagerApp.Services.AdminServices
 
         public List<Hotel> GetAllHotels()
         {
-            return _hotelRepository.GetAll();
+            return _hotelRepository.GetAll().Where(hotel => hotel.NewHotel == HotelSuggestion.ACCEPTED).ToList();
         }
 
-        public List<Hotel> GetSearch(string searchTerm, string selectedFilter)
+        public List<Hotel> GetSearch(string searchTerm, string selectedFilter, User logged)
         {
             if (string.IsNullOrWhiteSpace(searchTerm))
             {
-                return GetAllHotels();
+                return GetAllByOwnerJmbg(logged);
             }
 
             switch (selectedFilter)
             {
                 case "ID":
-                    return SearchById(searchTerm);
+                    return SearchById(searchTerm, logged);
                 case "Name":
-                    return SearchByName(searchTerm);
+                    return SearchByName(searchTerm, logged);
                 case "Construction Year":
-                    return SearchByYear(searchTerm);
+                    return SearchByYear(searchTerm, logged);
                 case "Number of Stars":
-                    return SearchByStars(searchTerm);
+                    return SearchByStars(searchTerm, logged);
                 default:
                     return GetAllHotels();
             }
         }
 
-        private List<Hotel> SearchById(string searchTerm)
+        private List<Hotel> SearchById(string searchTerm, User logged)
         {
             if (int.TryParse(searchTerm, out int hotelId))
             {
-                return _hotelRepository.GetAll()
+                return GetAllByOwnerJmbg(logged)
                     .Where(h => h.Id == hotelId)
                     .ToList();
             }
             throw new ArgumentException("Invalid ID format.");
         }
 
-        private List<Hotel> SearchByName(string searchTerm)
+        private List<Hotel> SearchByName(string searchTerm, User logged)
         {
-            return _hotelRepository.GetAll()
+            return GetAllByOwnerJmbg(logged)
                 .Where(h => h.Name.ToLower().Contains(searchTerm.ToLower()))
                 .ToList();
         }
 
-        private List<Hotel> SearchByYear(string searchTerm)
+        private List<Hotel> SearchByYear(string searchTerm, User logged)
         {
             if (int.TryParse(searchTerm, out int constructionYear))
             {
-                return _hotelRepository.GetAll()
+                return GetAllByOwnerJmbg(logged)
                     .Where(h => h.YearOfConstruction == constructionYear)
                     .ToList();
             }
             throw new ArgumentException("Invalid Construction Year format.");
         }
 
-        private List<Hotel> SearchByStars(string searchTerm)
+        private List<Hotel> SearchByStars(string searchTerm, User logged)
         {
             if (int.TryParse(searchTerm, out int stars))
             {
-                return _hotelRepository.GetAll()
+                return GetAllByOwnerJmbg(logged)
                     .Where(h => h.NumberOfStars == stars)
                     .ToList();
             }
             throw new ArgumentException("Invalid number of Stars format.");
+        }
+
+        public List<Hotel> GetSuggestedNewHotels(User forOwner)
+        {
+            List<Hotel> newHotels = new();
+            foreach(var h in _hotelRepository.GetAll())
+            {
+                if(h.OwnerJmbg == forOwner.Jmbg && h.NewHotel == HotelSuggestion.PENDING)
+                {
+                    newHotels.Add(h);
+                }
+            }
+            return newHotels;
+        }
+
+        public void Update(Hotel SelectedHotel)
+        {
+            _hotelRepository.Update(SelectedHotel);
+        }
+
+        public List<Hotel> GetAllByOwnerJmbg(User logged)
+        {
+            List<Hotel> ownersHotels = new();
+            foreach(var h in GetAllHotels())
+            {
+                if(h.OwnerJmbg == logged.Jmbg)
+                {
+                    ownersHotels.Add(h);
+                }
+            }
+            return ownersHotels;
         }
     }
 }

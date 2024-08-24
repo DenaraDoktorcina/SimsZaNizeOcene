@@ -1,5 +1,6 @@
 ﻿using HotelsManagerApp.Models;
 using HotelsManagerApp.Repositories;
+using HotelsManagerApp.Services.AdminServices;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,9 +12,14 @@ namespace HotelsManagerApp.Services.GuestService
     public class ReservationService
     {
         public ReservationRepository _reservationRepository;
+        public HotelService _hotelService;
+        public ApartmentService _apartmentService;
         public ReservationService()
         {
             _reservationRepository = new ReservationRepository();
+
+            _hotelService = new HotelService();
+            _apartmentService = new ApartmentService();
         }
 
         public List<Reservation> GetAllReservations()
@@ -60,6 +66,52 @@ namespace HotelsManagerApp.Services.GuestService
         public Reservation CancelReservation(Reservation SelectedReservation, User Loggeduser)
         {
             return _reservationRepository.Delete(SelectedReservation, Loggeduser);
+        }
+
+        public List<Reservation> GetReservationsByOwnerId(User LoggedOwner)
+        {
+            List<Reservation> reservationsForOwnersHotels = new List<Reservation>();
+            foreach(var h in _hotelService.GetAllHotels())
+            {
+                if(h.OwnerJmbg == LoggedOwner.Jmbg)
+                {
+                    foreach(var a in h.ApartmentsIds)
+                    {
+                        foreach(var r in _reservationRepository.GetAll())
+                        {
+                            if(r.ApartmentId == a)
+                            {
+                                reservationsForOwnersHotels.Add(r);
+                            }
+                        }
+                    }
+                }
+            }
+
+            return reservationsForOwnersHotels;
+        }
+
+        public List<Reservation> GetReservationsForSelectedHotel(Hotel SelectedHotel)
+        {
+            List<Reservation> reservations = new List<Reservation>();
+            foreach(var a in SelectedHotel.ApartmentsIds)
+            {
+                foreach(var r in _reservationRepository.GetAll())
+                {
+                    if(a == r.ApartmentId && r.ReservationStatus == OwnerAnswer.PENDING)
+                    {
+                        reservations.Add(r);
+                    }
+                }
+            }
+            return reservations;
+        }
+
+        public void RejectedReservation(Reservation selectedReservation, string rejectionComment)
+        {
+            selectedReservation.RejectionComment = rejectionComment;
+            selectedReservation.ReservationStatus = OwnerAnswer.REJECTED;
+            _reservationRepository.Update(selectedReservation);
         }
     }
 }

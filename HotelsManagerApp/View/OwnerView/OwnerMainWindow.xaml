@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:HotelsManagerApp.View.OwnerView"
         mc:Ignorable="d"
-        Title="OwnerMainWindow" Height="450" Width="800">
+        Title="OwnerMainWindow" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
@@ -57,5 +58,20 @@
                 <DataGridTextColumn Header="Stars:" Binding="{Binding NumberOfStars}" Width="*"/>
             </DataGrid.Columns>
         </DataGrid>
+
+        <Grid Grid.Row="2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <Button Content="See reservations" Grid.Column="0" Margin="5" Command="{Binding AllReservationsCommand}"/>
+            <Button Content="Manage reservations" Grid.Column="1" Margin="5" Command="{Binding ManageReservationsCommand}"/>
+            <Button Content="Hotel aproval" Grid.Column="2" Margin="5" Command="{Binding HotelAprovalCommand}"/>
+            <Button Content="Add apartment" Grid.Column="3" Margin="5" Command="{Binding AddApartmentCommand}"/>
+        </Grid>
+
     </Grid>
 </Window>
