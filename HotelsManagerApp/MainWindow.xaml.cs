@@ -72,7 +72,7 @@ namespace HotelsManagerApp
                         this.Close();
                     }
                 }
-                else
+                else if(LoggedUser.UserStatus == IsUserBlocked.ACTIVE)
                 {
                     switch (LoggedUser.UserType)
                     {
@@ -92,6 +92,10 @@ namespace HotelsManagerApp
                             break;
 
                     }
+                }
+                else
+                {
+                    MessageBox.Show("Your account has been BLOCKED by an admin!");
                 }
             }
         }

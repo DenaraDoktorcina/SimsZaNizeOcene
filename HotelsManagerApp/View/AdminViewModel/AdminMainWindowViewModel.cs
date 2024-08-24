@@ -1,6 +1,7 @@
 ﻿using HotelsManagerApp.Controllers;
 using HotelsManagerApp.Models;
 using HotelsManagerApp.Services.AdminServices;
+using HotelsManagerApp.View.AdminView;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -59,14 +60,38 @@ namespace HotelsManagerApp.View.AdminViewModel
         };
 
         public ICommand SearchCommand { get; set; }
+        public ICommand RegisterNewOwnerCommand { get; set; }
+        public ICommand ShowAllUsersCommand {  get; set; }
+        public ICommand BlockUserCommand { get; set; }
         public AdminMainWindowViewModel(User Logged) 
         {
             LoggedUser = Logged;
             _hotelController = new HotelController();
             Hotels = new ObservableCollection<Hotel>(_hotelController.GetAll());
             SearchCommand = new RelayCommand<object>(SearchHotel);
+            RegisterNewOwnerCommand = new RelayCommand<object>(RegisterNewOwner);
+            ShowAllUsersCommand = new RelayCommand<object>(ShowAllUsers);
+            BlockUserCommand = new RelayCommand<object>(BlockUser);
 
             SelectedFilter = FilterOptions[0];
+        }
+
+        public void BlockUser(object parameter)
+        {
+            BlockUserWindow buw = new BlockUserWindow();
+            buw.Show();
+        }
+
+        public void ShowAllUsers(object parameter)
+        {
+            AllUsers au = new AllUsers();
+            au.Show();
+        }
+
+        public void RegisterNewOwner(object parameter)
+        {
+            RegisterNewOwnerWindow rnow = new RegisterNewOwnerWindow(LoggedUser);
+            rnow.Show();
         }
 
         public void ResetHotelsList()

@@ -10,6 +10,12 @@
     <Compile Update="View\AdminView\AdminMainWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\AdminView\AllUsers.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\AdminView\BlockUserWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\AdminView\RegisterNewOwnerWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -43,6 +49,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\AdminView\AdminMainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AdminView\AllUsers.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\AdminView\BlockUserWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\AdminView\RegisterNewOwnerWindow.xaml">

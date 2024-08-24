@@ -3,24 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminviewmodel\\registernewownerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminviewmodel\\registernewownerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminview\\blockuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminview\\blockuserwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\repositories\\apartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:repositories\\apartmentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\resources\\data\\users.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:resources\\data\\users.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminview\\registernewownerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminview\\registernewownerwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminview\\registernewownerwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminview\\registernewownerwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminviewmodel\\blockuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminviewmodel\\blockuserviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminviewmodel\\adminmainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminviewmodel\\adminmainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\services\\adminservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:services\\adminservices\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminview\\blockuserwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminview\\blockuserwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:repositories\\reservationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminview\\adminmainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminview\\adminmainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminview\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminview\\adminmainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminviewmodel\\allusersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminviewmodel\\allusersviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminview\\allusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminview\\allusers.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|c:\\users\\administrator\\desktop\\simsnizeocene\\simszanizeocene\\hotelsmanagerapp\\view\\adminview\\allusers.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2A400A45-570C-4E4E-9FAA-6D8B8450DDEC}|HotelsManagerApp.csproj|solutionrelative:view\\adminview\\allusers.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,76 +73,217 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 344,
-          "SelectedChildIndex": 2,
+          "DockedWidth": 333,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAgwEkAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T01:52:37.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-24T01:52:34.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Services\\AdminServices\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\AdminServices\\UserService.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Services\\AdminServices\\UserService.cs",
+              "RelativeToolTip": "Services\\AdminServices\\UserService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAlwEEAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T01:48:36.901Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T01:48:07.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminMainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminViewModel\\AdminMainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "View\\AdminViewModel\\AdminMainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminViewModel\\AdminMainWindowViewModel.cs",
+              "RelativeToolTip": "View\\AdminViewModel\\AdminMainWindowViewModel.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAA4wFAAAAA1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T00:51:07.95Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AdminMainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AdminMainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AdminView\\AdminMainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AdminMainWindow.xaml.cs",
+              "RelativeToolTip": "View\\AdminView\\AdminMainWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T00:51:06.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AllUsers.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AllUsers.xaml",
+              "RelativeDocumentMoniker": "View\\AdminView\\AllUsers.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AllUsers.xaml",
+              "RelativeToolTip": "View\\AdminView\\AllUsers.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-24T00:42:41.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "AdminMainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AdminMainWindow.xaml",
               "RelativeDocumentMoniker": "View\\AdminView\\AdminMainWindow.xaml",
               "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AdminMainWindow.xaml",
               "RelativeToolTip": "View\\AdminView\\AdminMainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-23T23:17:26.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "RegisterNewOwnerWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\RegisterNewOwnerWindow.xaml",
-              "RelativeDocumentMoniker": "View\\AdminView\\RegisterNewOwnerWindow.xaml",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\RegisterNewOwnerWindow.xaml",
-              "RelativeToolTip": "View\\AdminView\\RegisterNewOwnerWindow.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-08-23T23:20:12.697Z",
+              "WhenOpened": "2024-08-24T00:42:56.674Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApartmentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Repositories\\ApartmentRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ApartmentRepository.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Repositories\\ApartmentRepository.cs",
-              "RelativeToolTip": "Repositories\\ApartmentRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAJAAAA",
+              "Title": "users.csv",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Resources\\Data\\users.csv",
+              "RelativeDocumentMoniker": "Resources\\Data\\users.csv",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Resources\\Data\\users.csv",
+              "RelativeToolTip": "Resources\\Data\\users.csv",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
+              "WhenOpened": "2024-08-24T01:37:55.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BlockUserViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminViewModel\\BlockUserViewModel.cs",
+              "RelativeDocumentMoniker": "View\\AdminViewModel\\BlockUserViewModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminViewModel\\BlockUserViewModel.cs",
+              "RelativeToolTip": "View\\AdminViewModel\\BlockUserViewModel.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAxwFAAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T00:06:13.741Z",
+              "WhenOpened": "2024-08-24T01:16:36.871Z",
               "EditorCaption": ""
             }
           ]
         },
         {
-          "DockedWidth": 352,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 355,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RegisterNewOwnerViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminViewModel\\RegisterNewOwnerViewModel.cs",
-              "RelativeDocumentMoniker": "View\\AdminViewModel\\RegisterNewOwnerViewModel.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminViewModel\\RegisterNewOwnerViewModel.cs",
-              "RelativeToolTip": "View\\AdminViewModel\\RegisterNewOwnerViewModel.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAuwIkAAAAAAAAA",
+              "DocumentIndex": 9,
+              "Title": "ReservationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Repositories\\ReservationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\ReservationRepository.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Repositories\\ReservationRepository.cs",
+              "RelativeToolTip": "Repositories\\ReservationRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T23:42:39.811Z",
+              "WhenOpened": "2024-08-24T01:44:09.712Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterNewOwnerWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\RegisterNewOwnerWindow.xaml.cs",
-              "RelativeDocumentMoniker": "View\\AdminView\\RegisterNewOwnerWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\RegisterNewOwnerWindow.xaml.cs",
-              "RelativeToolTip": "View\\AdminView\\RegisterNewOwnerWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 8,
+              "Title": "BlockUserWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\BlockUserWindow.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AdminView\\BlockUserWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\BlockUserWindow.xaml.cs",
+              "RelativeToolTip": "View\\AdminView\\BlockUserWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-23T23:42:09.126Z",
+              "WhenOpened": "2024-08-24T01:29:11.634Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AllUsersViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminViewModel\\AllUsersViewModel.cs",
+              "RelativeDocumentMoniker": "View\\AdminViewModel\\AllUsersViewModel.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminViewModel\\AllUsersViewModel.cs",
+              "RelativeToolTip": "View\\AdminViewModel\\AllUsersViewModel.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwDMAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T00:47:26.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlockUserWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\BlockUserWindow.xaml",
+              "RelativeDocumentMoniker": "View\\AdminView\\BlockUserWindow.xaml",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\BlockUserWindow.xaml",
+              "RelativeToolTip": "View\\AdminView\\BlockUserWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-08-24T01:12:58.751Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AllUsers.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AllUsers.xaml.cs",
+              "RelativeDocumentMoniker": "View\\AdminView\\AllUsers.xaml.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\View\\AdminView\\AllUsers.xaml.cs",
+              "RelativeToolTip": "View\\AdminView\\AllUsers.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T00:50:19.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\SimsNizeOcene\\SimsZaNizeOcene\\HotelsManagerApp\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T00:43:51.226Z",
               "EditorCaption": ""
             }
           ]

@@ -57,3 +57,9 @@ C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\ob
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\HotelAprovalWindow.baml
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\NewApartmentWindow.g.cs
 C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\OwnerView\NewApartmentWindow.baml
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\RegisterNewOwnerWindow.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\RegisterNewOwnerWindow.baml
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\AllUsers.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\AllUsers.baml
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\BlockUserWindow.g.cs
+C:\Users\Administrator\Desktop\SimsNizeOcene\SimsZaNizeOcene\HotelsManagerApp\obj\Debug\net8.0-windows\View\AdminView\BlockUserWindow.baml

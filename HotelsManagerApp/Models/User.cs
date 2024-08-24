@@ -9,6 +9,7 @@ using HotelsManagerApp.Serializer;
 namespace HotelsManagerApp.Models
 {
     public enum TypeOfUser { ADMINISTRATOR = 0, GUEST = 1, OWNER = 2 }
+    public enum IsUserBlocked { ACTIVE =1, BLOCKED}
     public class User : ISerializable
     {
 
@@ -20,6 +21,8 @@ namespace HotelsManagerApp.Models
         public string Surname { get; set; }
         public string Phone { get; set; }
         public TypeOfUser UserType { get; set; }
+
+        public IsUserBlocked UserStatus { get; set; }
 
         public User() { }
 
@@ -46,6 +49,7 @@ namespace HotelsManagerApp.Models
             Surname = values[5];
             Phone = values[6];
             UserType = (TypeOfUser)Enum.Parse(typeof(TypeOfUser), values[7]);
+            UserStatus = (IsUserBlocked)Enum.Parse(typeof(IsUserBlocked), values[8]);
         }
         public string[] ToCSV()
         {
@@ -58,7 +62,8 @@ namespace HotelsManagerApp.Models
                 Name.ToString(),
                 Surname.ToString(),
                 Phone.ToString(),
-                UserType.ToString()
+                UserType.ToString(),
+                UserStatus.ToString(),
             };
             return csvValues;
         }

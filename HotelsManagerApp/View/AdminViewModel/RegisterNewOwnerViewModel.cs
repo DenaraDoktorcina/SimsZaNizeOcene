@@ -110,6 +110,9 @@ namespace HotelsManagerApp.View.AdminViewModel
 
             CancelCommand = new RelayCommand<object>(Cancel);
             SubmitCommand = new RelayCommand<object>(Submit);
+
+            Jmbg = "";
+            Email = "";
         }
 
         public void Cancel(object parameter)
@@ -121,18 +124,27 @@ namespace HotelsManagerApp.View.AdminViewModel
         }
         public void Submit(object parameter)
         {
-            User newOwner = new();
-            newOwner.Jmbg = Jmbg;
-            newOwner.Name = Name;
-            newOwner.Surname = Surname;
-            newOwner.Email = Email;
-            newOwner.Password = Password;
-            newOwner.Phone = TelephoneNumber;
-            newOwner.UserType = TypeOfUser.OWNER;
-            _userController.Add(newOwner);
-            if (parameter is System.Windows.Window window)
+            if (_userController.DoesJmbgAlreadyExists(Jmbg) || Jmbg=="")
             {
-                window.Close();
+                MessageBox.Show("Inupt different jmbg!");   
+            }else if(_userController.DoesEmailAlreadyExists(Email) || Email=="")
+            {
+                MessageBox.Show("Inupt different email!");
+            }else
+            {
+                User newOwner = new();
+                newOwner.Jmbg = Jmbg;
+                newOwner.Name = Name;
+                newOwner.Surname = Surname;
+                newOwner.Email = Email;
+                newOwner.Password = Password;
+                newOwner.Phone = TelephoneNumber;
+                newOwner.UserType = TypeOfUser.OWNER;
+                _userController.Add(newOwner);
+                if (parameter is System.Windows.Window window)
+                {
+                    window.Close();
+                }
             }
         }
 

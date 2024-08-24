@@ -53,7 +53,7 @@ namespace HotelsManagerApp.View.OwnerView {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HotelsManagerApp;V1.0.0.0;component/view/ownerview/newapartmentwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HotelsManagerApp;component/view/ownerview/newapartmentwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\OwnerView\NewApartmentWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

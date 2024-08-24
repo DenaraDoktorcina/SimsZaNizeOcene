@@ -1,0 +1,59 @@
+﻿<Window x:Class="HotelsManagerApp.View.AdminView.AllUsers"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HotelsManagerApp.View.AdminView"
+        mc:Ignorable="d"
+        Title="AllUsers" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <ComboBox Grid.Column="2" Margin="0 3 10 3"
+                      ItemsSource="{Binding UserTypes}"
+                      SelectedItem="{Binding SelectedUserType, Mode=TwoWay}"
+                      />
+        </Grid>
+        
+        <DataGrid
+             ItemsSource="{Binding Path=FilteredUsers, UpdateSourceTrigger=PropertyChanged}"
+             SelectedItem="{Binding Path=SelecteUser, UpdateSourceTrigger=PropertyChanged}"
+             IsReadOnly="True" 
+             HorizontalAlignment="Stretch" 
+             x:Name="myDataGridHotels"
+             Grid.Row="1"
+             AutoGenerateColumns="False"
+             EnableColumnVirtualization="False"
+             EnableRowVirtualization="False"
+            Margin="10"
+            >
+
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="{x:Type DataGridColumnHeader}">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID:" Binding="{Binding Id}" Width="Auto"/>
+                <DataGridTextColumn Header="Password:" Binding="{Binding Password}" Width="*"/>
+                <DataGridTextColumn Header="Name:" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Surname:" Binding="{Binding Surname}" Width="*"/>
+                <DataGridTextColumn Header="Email:" Binding="{Binding Email}" Width="*"/>
+                <DataGridTextColumn Header="Jmbg:" Binding="{Binding Jmbg}" Width="*"/>
+                <DataGridTextColumn Header="User type:" Binding="{Binding UserType}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>

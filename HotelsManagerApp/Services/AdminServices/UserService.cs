@@ -37,5 +37,33 @@ namespace HotelsManagerApp.Services.AdminServices
         {
             _userRepository.Save(newowner);
         }
+
+        public bool DoesJmbgAlreadyExists(string jmbg)
+        {
+            foreach (var user in GetAllUsers())
+            {
+                if(user.Jmbg == jmbg)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+        public bool DoesEmailAlreadyExists(string email)
+        {
+            foreach (var user in GetAllUsers())
+            {
+                if (user.Email == email)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+        public void Update(User updatedUser)
+        {
+            _userRepository.Update(updatedUser);
+        }
     }
 }

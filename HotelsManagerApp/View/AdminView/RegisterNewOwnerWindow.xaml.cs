@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using HotelsManagerApp.Models;
+using HotelsManagerApp.View.AdminViewModel;
 
 namespace HotelsManagerApp.View.AdminView
 {
@@ -19,9 +21,10 @@ namespace HotelsManagerApp.View.AdminView
     /// </summary>
     public partial class RegisterNewOwnerWindow : Window
     {
-        public RegisterNewOwnerWindow()
+        public RegisterNewOwnerWindow(User logged)
         {
             InitializeComponent();
+            DataContext = new RegisterNewOwnerViewModel(logged);
         }
     }
 }

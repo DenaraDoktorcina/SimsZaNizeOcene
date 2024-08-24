@@ -31,5 +31,18 @@ namespace HotelsManagerApp.Controllers
         {
             _userService.Add(newowner);
         }
+
+        public bool DoesJmbgAlreadyExists(string jmbg)
+        {
+            return _userService.DoesJmbgAlreadyExists(jmbg);
+        }
+        public bool DoesEmailAlreadyExists(string email)
+        {
+            return _userService.DoesEmailAlreadyExists(email);
+        }
+        public void Update(User updatedUser)
+        {
+            _userService.Update(updatedUser);
+        }
     }
 }

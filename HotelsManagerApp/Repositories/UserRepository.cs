@@ -29,6 +29,7 @@ namespace HotelsManagerApp.Repositories
 
         public void Save(User newUser)
         {
+            newUser.UserStatus = IsUserBlocked.ACTIVE;
             newUser.Id = NextId();
             users = _serializer.FromCSV(FilePath);
             users.Add(newUser);
@@ -42,6 +43,16 @@ namespace HotelsManagerApp.Repositories
                 return 1;
             }
             return users.Max(x => x.Id) + 1;
+        }
+
+        public void Update(User updatedUser)
+        {
+            users = _serializer.FromCSV(FilePath);
+            User current = users.Find(c => c.Id == updatedUser.Id);
+            int index = users.IndexOf(current);
+            users.Remove(current);
+            users.Insert(index, updatedUser);
+            _serializer.ToCSV(FilePath, users);
         }
     }
 }

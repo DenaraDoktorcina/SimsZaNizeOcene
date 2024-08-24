@@ -69,7 +69,7 @@ namespace HotelsManagerApp.View.AdminView {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/HotelsManagerApp;V1.0.0.0;component/view/adminview/adminmainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/HotelsManagerApp;component/view/adminview/adminmainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\AdminView\AdminMainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
