@@ -69,6 +69,7 @@ namespace HotelsManagerApp.View.AdminViewModel
             LoggedUser = Logged;
             _hotelController = new HotelController();
             Hotels = new ObservableCollection<Hotel>(_hotelController.GetAll());
+
             SearchCommand = new RelayCommand<object>(SearchHotel);
             RegisterNewOwnerCommand = new RelayCommand<object>(RegisterNewOwner);
             ShowAllUsersCommand = new RelayCommand<object>(ShowAllUsers);

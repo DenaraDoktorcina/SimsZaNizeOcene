@@ -35,6 +35,22 @@ namespace HotelsManagerApp.View.OwnerViewModel
             }
         }
 
+        private string _apartmentSearchTerm;
+        public string ApartmentSearchTerm
+        {
+            get { return _apartmentSearchTerm; }
+            set
+            {
+                _apartmentSearchTerm = value;
+                OnPropertyChanged(nameof(ApartmentSearchTerm));
+
+                if (string.IsNullOrWhiteSpace(_apartmentSearchTerm))
+                {
+                    ResetHotelsList();
+                }
+            }
+        }
+
         private string _selectedFilter;
         public string SelectedFilter
         {
@@ -46,8 +62,36 @@ namespace HotelsManagerApp.View.OwnerViewModel
 
                 SearchTerm = string.Empty;
                 ResetHotelsList();
+                CheckApartmentSearch();
             }
         }
+
+        private string _selectedApartmentFilter;
+        public string SelectedApartmentFilter
+        {
+            get { return _selectedApartmentFilter; }
+            set
+            {
+                _selectedApartmentFilter = value;
+                OnPropertyChanged(nameof(SelectedApartmentFilter));
+
+                SearchTerm = string.Empty;
+                ResetHotelsList();
+                CheckApartmentSearch();
+            }
+        }
+
+        private bool _allowApartmentSearch;
+        public bool AllowApartmentSearch
+        {
+            get { return _allowApartmentSearch; }
+            set
+            {
+                _allowApartmentSearch = value;
+                OnPropertyChanged(nameof(AllowApartmentSearch));
+            }
+        }
+
 
         public List<string> FilterOptions { get; } = new List<string>
         {
@@ -57,12 +101,19 @@ namespace HotelsManagerApp.View.OwnerViewModel
             "Apartments",
             "Number of Stars"
         };
+        public List<string> ApartmentFilterOptions { get; } = new List<string>
+        {
+            "Number of rooms",
+            "Number of guests",
+            "Number of rooms AND guests"
+        };
 
         public ICommand SearchCommand { get; set; }
         public ICommand AllReservationsCommand { get; set; }
         public ICommand ManageReservationsCommand { get; set; }
         public ICommand HotelAprovalCommand {  get; set; }
         public ICommand AddApartmentCommand {  get; set; }
+        public ICommand ApartmentSearchCommand { get; set; }
         public OwnerMainWindowViewModel(User logged) 
         {
             LoggedUser = logged;
@@ -74,8 +125,30 @@ namespace HotelsManagerApp.View.OwnerViewModel
             ManageReservationsCommand = new RelayCommand<object>(ManageReservations);
             HotelAprovalCommand = new RelayCommand<object>(HotelAproval);
             AddApartmentCommand = new RelayCommand<object>(AddApartment);
+            ApartmentSearchCommand = new RelayCommand<object>(ApartmentSearch);
+
+            ApartmentSearchTerm = "";
 
             SelectedFilter = FilterOptions[0];
+            SelectedApartmentFilter = ApartmentFilterOptions[0];
+        }
+
+        public void ApartmentSearch(object parameter)
+        {
+            Hotels = new ObservableCollection<Hotel>(_hotelController.GetByApartmentSearch(ApartmentSearchTerm, SelectedApartmentFilter, LoggedUser));
+            OnPropertyChanged(nameof(Hotels));
+        }
+
+        public void CheckApartmentSearch()
+        {
+            if(SelectedFilter == "Apartments")
+            {
+                AllowApartmentSearch = true;
+            }else
+            {
+                AllowApartmentSearch = false;
+            }
+            OnPropertyChanged(nameof(AllowApartmentSearch));
         }
 
         public void AddApartment(object parameter)

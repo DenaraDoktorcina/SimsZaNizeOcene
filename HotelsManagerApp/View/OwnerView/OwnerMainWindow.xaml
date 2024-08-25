@@ -10,6 +10,7 @@
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
@@ -23,7 +24,7 @@
                 <ColumnDefinition Width="Auto"/>
             </Grid.ColumnDefinitions>
             <TextBlock Text="Search:" Grid.Column="1" HorizontalAlignment="Right"/>
-            <TextBox Grid.Column="2" Margin="3" Name="searchTextBox" Foreground="Gray" Text="{Binding SearchTerm, Mode=TwoWay}"/>
+            <TextBox Grid.Column="2" Margin="3" Name="searchTextBox" Text="{Binding SearchTerm, Mode=TwoWay}" BorderBrush="Black"/>
             <ComboBox Grid.Column="3" Margin="3" SelectedIndex="0" 
                       ItemsSource="{Binding FilterOptions}" 
                       SelectedItem="{Binding SelectedFilter, Mode=TwoWay}">
@@ -32,14 +33,33 @@
 
             <Button Command="{Binding SearchCommand}" Grid.Column="4" Content="&#xE721;" FontFamily="Segoe MDL2 Assets" Width="30" Margin="3"/>
         </Grid>
-        
+
+        <Grid Grid.Row="1" DataContext="{Binding}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Search for apartments:" Grid.Column="1" HorizontalAlignment="Right" IsEnabled="{Binding AllowApartmentSearch}"/>
+            <TextBox Text="{Binding ApartmentSearchTerm, Mode=TwoWay}" BorderBrush="Black" Grid.Column="2" Margin="3" IsEnabled="{Binding AllowApartmentSearch}"/>
+            <ComboBox Grid.Column="3" Margin="3" SelectedIndex="0" 
+                      ItemsSource="{Binding ApartmentFilterOptions}" 
+                      SelectedItem="{Binding SelectedApartmentFilter, Mode=TwoWay}" IsEnabled="{Binding AllowApartmentSearch}">
+            </ComboBox>
+            <Button Command="{Binding ApartmentSearchCommand}" Grid.Column="4" Content="&#xE721;" FontFamily="Segoe MDL2 Assets" Width="30" Margin="3 3 3 3" IsEnabled="{Binding AllowApartmentSearch}"/>
+        </Grid>
+
+
         <DataGrid
              ItemsSource="{Binding Path=Hotels, UpdateSourceTrigger=PropertyChanged}"
              SelectedItem="{Binding Path=SelectedHotel, UpdateSourceTrigger=PropertyChanged}"
              IsReadOnly="True" 
              HorizontalAlignment="Stretch" 
              x:Name="myDataGridHotels"
-             Grid.Row="1"
+             Grid.Row="2"
              AutoGenerateColumns="False"
              EnableColumnVirtualization="False"
              EnableRowVirtualization="False">
@@ -59,7 +79,7 @@
             </DataGrid.Columns>
         </DataGrid>
 
-        <Grid Grid.Row="2">
+        <Grid Grid.Row="3">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
                 <ColumnDefinition Width="*"/>

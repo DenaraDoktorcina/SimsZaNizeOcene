@@ -47,5 +47,10 @@ namespace HotelsManagerApp.Controllers
         {
             return _hotelService.Add(newHotel);
         }
+
+        public List<Hotel> GetByApartmentSearch(string apartmentSearchTerm, string searchBy, User logged)
+        {
+            return _hotelService.GetByApartmentSearch(apartmentSearchTerm, searchBy, logged);
+        }
     }
 }
